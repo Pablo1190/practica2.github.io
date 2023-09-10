@@ -1,7 +1,6 @@
-/* ----- POPPINS FONT Link ----- */
+/* ----- Fuente sobresaliente ----- */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
-/* ----- VARIABLES ----- */
 :root{
     --body-color: rgb(250, 250, 250);
     --color-white: rgb(255, 255, 255);
@@ -15,7 +14,6 @@
     --second-color: rgb(110, 87, 224);
     --third-color: rgb(192, 166, 49);
     --first-shadow-color: rgba(0, 0, 0, 0.1);
-
 }
 
 *{
@@ -470,7 +468,7 @@ footer{
 }
 
 
-/* ----- MEDIA QUERY == 1024px / RESPONSIVE ----- */
+/* ----- 1024px / RESPONSIVE ----- */
 @media only screen and (max-width: 1024px){
     .featured-text{
         padding: 0;
@@ -481,7 +479,7 @@ footer{
     }
 }
 
-/* ----- MEDIA QUERY == 900px / RESPONSIVE ----- */
+/* ----- 900px / RESPONSIVE ----- */
 @media only screen and (max-width: 900px) {
     .nav-button{
         display: none;
@@ -560,7 +558,7 @@ footer{
 
 }
 
-/* ----- MEDIA QUERY == 540px / RESPONSIVE ----- */
+/* ----- 540 px / RESPONSIVE ----- */
 
 @media only screen and (max-width: 540px){
     .featured-name{
