@@ -41,7 +41,7 @@ function myMenuFunction(){
  })
 
 
-/* ----- ## -- SCROLL REVEAL ANIMATION -- ## ----- */
+/* ----- ## -- animacion scroll -- ## ----- */
  const sr = ScrollReveal({
         origin: 'top',
         distance: '80px',
@@ -64,9 +64,7 @@ sr.reveal('.project-box',{interval: 200})
 /* -- HEADINGS -- */
 sr.reveal('.top-header',{})
 
-/* ----- ## -- SCROLL REVEAL LEFT_RIGHT ANIMATION -- ## ----- */
-
-/* -- ABOUT INFO & CONTACT INFO -- */
+/* -- ABOUT/CONTACTO -- */
 const srLeft = ScrollReveal({
   origin: 'left',
   distance: '80px',
@@ -77,7 +75,7 @@ const srLeft = ScrollReveal({
 srLeft.reveal('.about-info',{delay: 100})
 srLeft.reveal('.contact-info',{delay: 100})
 
-/* -- ABOUT SKILLS & FORM BOX -- */
+/* -- SKILLS Y FORMULARIO -- */
 const srRight = ScrollReveal({
   origin: 'right',
   distance: '80px',
@@ -88,9 +86,6 @@ const srRight = ScrollReveal({
 srRight.reveal('.skills-box',{delay: 100})
 srRight.reveal('.form-control',{delay: 100})
 
-
-
-/* ----- CHANGE ACTIVE LINK ----- */
 
 const sections = document.querySelectorAll('section[id]')
 
